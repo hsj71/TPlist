@@ -1,0 +1,30 @@
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.faq-question {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: #f0f0f0;
+}
+
+.faq-question.active {
+  color: #007bff;
+}
+
+.faq-answer {
+  padding: 8px 16px;
+  color: #333;
+}
