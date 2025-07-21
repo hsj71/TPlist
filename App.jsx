@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react'
 import ProductList from './ProductList'
+import FaqAccordion from './FaqAccordion.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ function App() {
   };
 
   return (
-    <div style={styles.main}>
+    <div style={styles.main }>
+      <FaqAccordion/>
       <ProductList/>
     </div>
   )
